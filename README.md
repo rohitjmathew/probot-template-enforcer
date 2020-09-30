@@ -12,7 +12,7 @@
 <img width="1041" alt="screen shot 2017-07-07 at 3 32 01 pm" src="https://user-images.githubusercontent.com/17832347/94599643-59421480-02ae-11eb-98d1-bc2bb0bd5419.png">
 
 
-**NOTE:** This is a customised implementation of [request-info](https://github.com/behaviorbot/request-info) and follows a lot of the similar principals. The idea is to improve the code from request info to stringently enforce the template.
+**NOTE:** This is a customised implementation of [request-info](https://github.com/behaviorbot/request-info) and follows a lot of the similar principals. The idea is to improve the code from request info to stringently enforce the template. All code reused from request-info is subject to its own [License](https://github.com/behaviorbot/request-info/blob/master/LICENSE)
 
 ## Usage
 
@@ -94,4 +94,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE) © 2017 Bex Warner (request-info) & Rohit Mathew (probot-template-enforcer)
+[MIT](LICENSE) © 2017 Bex Warner ([request-info](https://github.com/behaviorbot/request-info/blob/master/LICENSE)) & 2020 Rohit Mathew ([probot-template-enforcer](https://github.com/rohitjmathew/probot-template-enforcer/blob/master/LICENSE))
