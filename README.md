@@ -12,7 +12,7 @@
 <img width="1041" alt="screen shot 2017-07-07 at 3 32 01 pm" src="https://user-images.githubusercontent.com/17832347/94599643-59421480-02ae-11eb-98d1-bc2bb0bd5419.png">
 
 
-**NOTE:** This is a customised implementation of [request-info](https://github.com/behaviorbot/request-info) and follows a lot of the similar principals. The idea is to improve the code from request info to stringently enforce the template. All code reused from request-info is subject to its own [License](https://github.com/behaviorbot/request-info/blob/master/LICENSE)
+**NOTE:** This is a customised implementation of [request-info](https://github.com/behaviorbot/request-info) and follows a lot of similar principles. The idea is to improve the code from request-info to stringently enforce the template. All code reused from request-info is subject to its own [License](https://github.com/behaviorbot/request-info/blob/master/LICENSE).
 
 ## Usage
 
@@ -34,6 +34,7 @@ probotTemplateEnforcerReplyComment: >
   We would appreciate it if you could provide us with more info about this issue/pr!
 
 # Or an array:
+# (In this case, a comment is chosen at random from the provided array)
 # probotTemplateEnforcerReplyComment:
 #  - Ah no! young blade! That was a trifle short!
 #  - Tell me more !
@@ -57,7 +58,7 @@ checkIssueTemplate: true
 # Will fail if the pull request's body is equal to the provided template
 checkPullRequestTemplate: true
 
-# *OPTIONAL* Only warn about insufficient information on these events type
+# *OPTIONAL* Only warn about insufficient information on these event types
 # Keys must be lowercase. Valid values are 'issue' and 'pullRequest'
 probotTemplateEnforcerOn:
   pullRequest: true
