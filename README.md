@@ -7,6 +7,7 @@
   <h1 align="center">Templater</h1>
 </p>
 
+
 > A GitHub App built with [Probot](https://github.com/probot/probot) that requests more info from newly opened Pull Requests and Issues that contain either default titles, whose description is left blank or templates not followed. It does so by taking data from a `.github/config.yml`.
 
 <img width="1041" alt="screen shot 2017-07-07 at 3 32 01 pm" src="https://user-images.githubusercontent.com/17832347/94599643-59421480-02ae-11eb-98d1-bc2bb0bd5419.png">
@@ -95,4 +96,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE) © 2017 Bex Warner ([request-info](https://github.com/behaviorbot/request-info/blob/master/LICENSE)) & 2020 Rohit Mathew ([probot-template-enforcer](https://github.com/rohitjmathew/probot-template-enforcer/blob/master/LICENSE))
+[MIT](LICENSE) © 2017 Bex Warner ([request-info](https://github.com/behaviorbot/request-info/blob/master/LICENSE)) & 2022 Rohit Mathew ([probot-template-enforcer](https://github.com/rohitjmathew/probot-template-enforcer/blob/master/LICENSE))
